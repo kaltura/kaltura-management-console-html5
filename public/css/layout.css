@@ -1,0 +1,122 @@
+body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+#modalBox, #embedCodeBox, #editBox, #categoriesBox{
+	width:650px;
+	background-color: #FFFFFF;
+	border:1px solid #BBB;
+	padding:10px;
+	text-align: left;
+	font-size:12px;
+}
+
+#embedCode{
+	-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+    -moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+    box-shadow: inset 2px 2px 2px 0px #dddddd;
+    height: 100px;
+	width: 540px;  
+    overflow: auto;
+    padding: 7px 10px;  
+    font-family: tahoma;
+    font-size: 13px;
+    border: 1px solid #aaa;
+}
+
+div.dataTables_length label {
+	float: left;
+	text-align: left;
+}
+
+div.dataTables_length select {
+	width: 75px;
+}
+
+div.dataTables_filter label {
+	float: right;
+}
+
+div.dataTables_info {
+	padding-top: 8px;
+}
+
+div.dataTables_paginate {
+	float: right;
+	margin: 0;
+}
+
+div.dataTables_processing {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	height: 30px;
+	margin-left: -125px;
+	margin-top: -15px;
+	padding: 14px 0 2px 0;
+	border: 1px solid #666;
+	text-align: center;
+	color: #666;
+	font-size: 14px;
+	background-color: white;
+}
+
+table.table {
+	clear: both;
+	margin-bottom: 6px !important;
+	font-size: 11px;
+}
+
+table.table thead .sorting,
+table.table thead .sorting_asc,
+table.table thead .sorting_desc,
+table.table thead .sorting_asc_disabled,
+table.table thead .sorting_desc_disabled {
+	cursor: pointer;
+	*cursor: hand;
+}
+
+table.table thead .sorting { background: url('../img/sort_both.png') no-repeat center right; }
+table.table thead .sorting_asc { background: url('../img/sort_asc.png') no-repeat center right; }
+table.table thead .sorting_desc { background: url('../img/sort_desc.png') no-repeat center right; }
+
+table.table thead .sorting_asc_disabled { background: url('../img/sort_asc_disabled.png') no-repeat center right; }
+table.table thead .sorting_desc_disabled { background: url('../img/sort_desc_disabled.png') no-repeat center right; }
+
+table.dataTable th:active {
+	outline: none;
+}
+
+table.dataTable td {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+ #d_clip_button {
+    width:135px; 
+}
+
+#d_clip_container{
+	width:135px;
+}
+
+.nav-list {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 0;
+}
+
+.nav-header {
+  padding: 3px;
+}
+
+.well {
+	padding-top: 3px;
+}
+
+.nav-list > li > a {
+  padding: 0px 5px;
+}
